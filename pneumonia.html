@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pneumonia Detector</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+  <section id="header">
+    <div class="heading">
+      <div class="txt1">
+        <h2>Pneumonia Detection
+        </h2>
+        <div class="heading-container">
+          <div class="txt2">
+            <h2>System</h2>
+          </div>
+          <div class="img1">
+            <img src="depositphotos_491768006-stock-illustration-lungs-icon-stock-illustration-design.jpg"
+              class="lungs-icon">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="img-place">
+  <div id="img-place1" class="image">
+    <img id="displayedImage" style="display: none;" />
+    <div id="pic" class="icon1">
+      <label for="image_input"><img src="plus.png" class="plus-icon" , id="display-pic"></label>
+      <input type="file" accept="image/jpeg, image/png , image/jpg" id="image_input">
+    </div>
+    <div id="txt_main" class="txt">
+      <p>Choose An Image</p>
+    </div>
+  </div>
+  <div class="text">
+    <p class="prediction-text" id="predictText" style="display: none;"></p>
+  </div>
+  <div class="buttons">
+    <div class="reset">
+      <button id="resetButton" >Reset</button>
+    </div>
+    <div class="check">
+      <button id="backend" type="submit">Check</button>
+    </div>
+  </div>
+</section>
+  <div class="output" id="result">
+    <img id="displayedImage" />
+  </div>
+  <script src="pds.js"></script>
+</body>
+
+</html>

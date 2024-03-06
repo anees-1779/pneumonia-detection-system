@@ -1,0 +1,169 @@
+/*General*/
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&family=Satisfy&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.heading{
+  display: flex;
+  margin-bottom: 13px;
+  align-items: center;
+  text-align: center;
+  font-size: xx-large;
+  border-bottom: 1px solid rgb(187, 183, 183);
+  width: 100%;
+  justify-content: center;
+  background-color:  rgb(51, 102, 153);
+  box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.2), 5px -20px 20px 0 rgba(230, 222, 222, 0.19);
+}
+
+.heading-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img1{
+  margin-left: 5px;
+}
+.lungs-icon{
+  height: 60px;
+  border: 1.5px #d4cccc;
+  border-radius: 10px;
+  }
+  h2{
+    color:rgb(255, 255, 255);
+  }
+
+#img-place{
+  display: flex;
+ align-items: center;
+ flex-direction: column;
+ border: 1px solid rgb(153 151 151);
+ border-radius:43px ;
+ padding-top: 43px;
+ padding-bottom: 30px;
+ margin: auto;
+ width: 40%;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(230, 222, 222, 0.19);
+ background-position: center;
+ background-size: cover;
+}
+#img-place1{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+.image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px dashed rgb(91, 92, 94);
+  border-radius: 8px;
+  width: 75%;
+  height: 55vh;
+  padding: 7px;
+  color: rgb(192, 192, 192);
+}
+
+.plus-icon{
+  height: 30px;
+  width: 30px; 
+}
+.txt ,p{
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  text-align: center;
+  font-size: larger;
+  margin-top: 7px;
+}
+.icon1{
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+}
+.plus-icon:hover{
+  border: 1px solid rgb(229, 228, 228);
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(230, 222, 222, 0.19);
+  cursor: pointer;
+}
+
+.image:hover{
+  border: 1px solid rgb(229, 228, 228);
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(61, 60, 60, 0.19);
+  color: rgb(51, 102, 153);
+}
+.buttons{
+  width: 80%;
+}
+button{
+  margin-top: 13px;
+  border-radius: 25px;
+  background-color: white;
+  color: rgb(51, 102, 153);
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 140%;
+  font-weight: 600;
+  border: 1.6px solid rgb(130, 130, 130);
+}
+
+button:hover{
+
+background-color: rgb(40, 40, 40);
+color: rgb(187, 236, 255);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+cursor: pointer;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+input{
+  display: none;
+}
+
+.txt5{
+  opacity: 0;
+}
+.plus-icon5{
+  height: 3px;
+  opacity: 0;
+  cursor: auto;
+}
+
+#displayedImage {
+  display: none;
+  max-width: 100%;  
+  max-height: 100%; 
+  object-fit: contain; 
+}
+
+
+.prediction-text{
+color: rgb(157, 0, 0);
+font-size: x-large;
+font-weight: 600;
+}
+
+.prediction-text_not{
+color: rgb(18, 150, 47);
+font-size: x-large;
+font-weight: 600;
+
+}
